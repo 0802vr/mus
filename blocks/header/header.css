@@ -43,7 +43,7 @@
 .nav__btn {
     border: none;
     cursor: pointer;
-    width: 234px;
+    width: 290px;
     height: 55px;  
     background: #FFFFFF;
     backdrop-filter: blur(2.25838px); 
@@ -52,10 +52,13 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    padding-left: 25px;
 }
 .nav__btn:nth-child(1) {
-    margin-right: -10px;
+    margin-right: -40px;
     z-index: 2;
+    width: 234px;
+    padding-left: 0;
 }
 .nav__btn:nth-child(2){
     
@@ -127,6 +130,83 @@
         margin-left: auto;
         margin-right: auto;
     } 
+    .header__conteiner {
+        margin-left: calc(70px - 100vw);
+        padding-left: calc(100vw - 70px);
+        width: 350px;
+    }
+    .header__button_send {
+        margin-left: 0;
+    }
+     
      
  }
+ @media (max-width:1300px) {
+     .header__table {
+        margin: 0 4vw 0;
+        padding-top: 20px;
+     }
+ }
+ @media (max-width:1250px) {
+     .header__box{
+         display: none;
+     }
+     .header__logo {
+         width: 180px;
+         height: 72px;
+     }
+     .header__nav {
+         margin-bottom: 48px;
+     }
+    }
+    @media (max-width:1000px) {
+        .header {
+            background-position:70%;
+        }
+        .header__title {
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 150.52%;
+        }
+        .header__subtitle {
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 150.52%;
+        }
+        .header__text{
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 150.52%;
+        }
+
+    }
+    @media (max-width:800px) {
+        .header {
+            max-height: 640px;
+        }
+        .header__title {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 150.52%;
+        }
+        .header__subtitle {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 150.52%;
+        }
+        .header__text{
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 150.52%;
+        }
+        .header__conteiner {
+            height: 90px;
+        }
+        .header__button_send {
+            font-size: 18px;
+            line-height: 20px;
+            height: 55px;
+        }
+
+    }
   

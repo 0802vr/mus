@@ -34,3 +34,20 @@
     justify-content: center;
     cursor: pointer;
 }
+@media (max-width:1300px) {
+    .comment {
+        padding: 230px 4vw 74px;
+
+    }
+    .comment__box {
+        flex-wrap: wrap;
+    }
+ }
+ @media (max-width:1300px) {
+    .comment__title{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 150.52%;
+    } 
+ }
+ 

@@ -27,6 +27,39 @@
     text-decoration: none;
     color: #FFFFFF;
 }
- @media (min-width:1600px) {
+.footer__logo_min {
+    display: none;
+}
+ @media (max-width:1300px) {
+    .footer__box {
+        padding: 25px 4vw 40px;
+
+    }
+ }
+ @media (max-width:1100px) {
+    .footer__box {
+        justify-content: flex-start;
+        gap: 45px;
+        
+    }
+    .footer__conteiner {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+ }
+ @media (max-width:800px) {
+    .footer__logo {
+        display: none;
+    }
+    .footer__logo_min{
+        display: block;
+    }
+    .footer__conteiner_link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150.52%;
+        max-width: 140px;
+    }
  }
    

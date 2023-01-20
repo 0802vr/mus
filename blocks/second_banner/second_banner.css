@@ -34,6 +34,9 @@
     max-width: 779px;
     margin-bottom: 69px;
 }
+.second_banner__text span {
+    font-weight: 700;
+}
 .second_banner__btn {
     width: 310px;
     height: 67.04px;
@@ -58,3 +61,37 @@
     }
      
  }
+ @media (max-width:1300px) {
+    .second_banner__box {
+         
+        margin: 0 4vw;
+    }
+  }
+
+ @media (max-width:800px) { 
+    .second_banner {
+        height: 620px;
+    }
+    .second_banner__box {
+        padding-top: 70px;
+         
+    }
+    .second_banner__title {
+        max-width: 70%;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 150.52%;
+        margin-bottom: 51px;
+    }
+    .second_banner__text{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 150.52%;
+        margin-bottom: 70px;
+    }
+    .second_banner__btn{
+        font-size: 18px;
+        line-height: 22px;
+        height: 55px;
+    }
+}

@@ -10,8 +10,11 @@
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+     
 }
 .fidback__img {
+    position: relative;
 }
 .fidback__box {
 }
@@ -32,4 +35,44 @@
     color: #292929;
     margin: 0;
     margin-top: 9px;
+    max-width: 860px;
+}
+@media (max-width:1300px) {
+    .fidback__img{
+        position: absolute;
+         
+        left: 25vw;
+         
+
+    }
+    .fidback__cont{
+        padding-left: 4vw;
+        padding-right: 4vw;
+        overflow: hidden;
+    }
+    .fidback__title {
+        max-width: 480px;
+         
+    }
+    .fidback__box{
+        z-index: 2;
+    }
+}
+@media (max-width:1000px) {
+    .fidback__title {
+        font-size: 55px;
+    }
+}
+@media (max-width:800px) { 
+    .fidback__title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .fidback__text{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 150.52%;
+    }
+    
 }

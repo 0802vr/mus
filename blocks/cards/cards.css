@@ -67,3 +67,9 @@ background-color: #292929;
     } 
      
  }
+ @media (max-width:1360px){
+      .cards__box {
+          padding-top: 105px;
+          padding-bottom: 85px;
+      }
+ }

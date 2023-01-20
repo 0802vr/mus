@@ -4,7 +4,9 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.17/dist/css/splide.min.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./pages/index.css">   
    <title>Music</title>
 </head>
@@ -22,6 +24,7 @@
            </div>
            <p class="nav__button_entry">Войти</p>
         </div>
+        <img class="header__list_burger" src="./images/Burger.svg" alt="burger">
      </nav>
      <h2 class="header__subtitle">продвинь</h2>
      <h1 class="header__title">свою музыку</h1>
@@ -29,64 +32,89 @@
      <div class="header__conteiner" >
       <button class="header__button_send">Отправить свою музыку!</button>
      </div>
+     
+   </div>
+   
+   <div class="burger">
+       
+         <div class="header__box_burger">
+            <p class="nav__text">Как это работает?</p>
+            
+               <button class="nav__btn">Стать куратором</button>
+               <button class="nav__btn">Зарегистрироваться</button>
+            
+            <p class="nav__button_entry">Войти</p>
+         </div>     
+       
+      <img class="burger_btn_close" src="./images/close.png" alt="close">
    </div>  
    </header>
    <main class="main">
       <section class="main_title">
          <div class="main_title_line_top"></div>
          <div class="main_title__box">
-            <h2 class="main_title__title">Популярные диджеи, известные лейблы и радиостанции <span class="main_title__title_span_first">оценят твою музыку,</span> <span class="main_title__title_span_second">дадут рецензию и разместят её у себя</span> </h2>
+            <h2 class="main_title__title">Популярные диджеи, известные лейблы и радиостанции <span class="main_title__title_span_first">оценят твою музыку,</span> <span class="main_title__title_span_second">дадут рецензию и разместят её у себя</span> 
             <img class="main_title__line" src="./images/line.svg" alt="line">
+            </h2>
+            
          </div>
          <div class="main_title_line_bottom"></div>
       </section>
       <section class="cards">
-         <div class="cards__box">
-         <div class="card">
+         <div class="splide" id="partnets_cards">
+         <div class="cards__box splide__track" id="splide-track">
+            <ul class="splide__list">
+         <li class="card splide__slide">
             <div class="card__photo"></div>
             <h3 class="card__name">Вася
                Пупкин</h3>
             <button class="card__btn">ПЛЕЙЛИСТ</button>
-         </div>
-         <div class="card">
+            </li>
+         <li class="card splide__slide">
             <div class="card__photo"></div>
             <h3 class="card__name">Вася
                Пупкин</h3>
             <button class="card__btn">ЛЕЙБЛ</button>
-         </div>
-         <div class="card">
+            </li>
+         <li class="card splide__slide">
             <div class="card__photo"></div>
             <h3 class="card__name">Вася
                Пупкин</h3>
             <button class="card__btn">ЛЕЙБЛ</button>
-         </div>
-         <div class="card">
+            </li>
+         <li class="card splide__slide">
             <div class="card__photo"></div>
             <h3 class="card__name">Вася
                Пупкин</h3>
             <button class="card__btn">ЛЕЙБЛ</button>
-         </div>
-         <div class="card">
+            </li>
+         <li class="card splide__slide">
             <div class="card__photo"></div>
             <h3 class="card__name">Вася
                Пупкин</h3>
             <button class="card__btn">ЛЕЙБЛ</button>
-         </div>
-         <div class="card">
+            </li>
+         <li class="card splide__slide">
             <div class="card__photo"></div>
             <h3 class="card__name">Вася
                Пупкин</h3>
             <button class="card__btn">ЛЕЙБЛ</button>
-         </div>
+            </li>
+      </ul>
+      </div>
       </div>
       </section>
       <section class="banner">          
-         <h3 class="banner_title">ПРИБЛИЗЬ ПОПУЛЯРНОСТЬ!</h3>
+         <h3 class="banner_title">ПРИБЛИЗЬ ПОПУЛЯРНОСТЬ!
+             <img class="banner_line1" src="./images/line1.svg" alt="line">
+         </h3>
+         
          <div class="banner_box">
             <h2 class="banner_subtitle">действуй</h2>
             <button class="banner_btn">Зарегистрироваться</button>
+            <img class="banner_line3" src="./images/line2.svg" alt="line">
          </div>
-         <img class="banner_line1" src="./images/line1.svg" alt="line">
+         
          <img class="banner_line2" src="./images/line2.svg" alt="line">
       </section>
       <section class="finder">
@@ -95,6 +123,7 @@
             <h3 class="finder__title">Тут ищут</h3>
             <h3 class="finder__subtitle">твою музыку</h3>
             <p class="finder__text">Мы рады любым стилям музыки! У нас есть кураторы для всех</p>
+            <img class="finder__line" src="./images/line4.svg" alt="line">
          </div>
          <div class="finder__box">
             <img  src="./images/converted.svg" alt="round">
@@ -114,13 +143,13 @@
       <section class="second_banner">
          <div class="second_banner__box">
             <h3 class="second_banner__title">Твой успех</h3>
-            <p class="second_banner__text">Сотни музыкантов стали успешными благодаря кураторской сети в Америке - теперь пришло время для тебя!</p>
+            <p class="second_banner__text">Сотни музыкантов стали успешными благодаря кураторской сети в Америке - <span> теперь пришло время для тебя!</span></p>
             <button class="second_banner__btn">Зарегистрироваться</button>
          </div>
       </section>
       <section class="card_section">
          <div class="card_section__table">
-
+            <div class="card_section__column">
             <div class="card_section_card">
                <div class="card_section_card_photo">
                   <img src="./images/download.svg" alt="download">
@@ -138,7 +167,8 @@
                  <span>Пополни</span> свой счет для оплаты куратора
                </p>
             </div>
-
+            </div>
+            <div class="card_section__column">
             <div class="card_section_card">
                <div class="card_section_card_photo">
                   <img src="./images/mail.svg" alt="mail">
@@ -155,6 +185,7 @@
                <p class="card_section_card_text">
                  <span>Звучи</span> в плейлистах крутых площадок, на радио и телевидении!
                </p>
+            </div>
             </div>
 
          </div>
@@ -200,7 +231,8 @@
 
    <footer class="footer">
       <div class="footer__box">
-         <img src="./images/logo.svg" alt="logo">
+         <img class="footer__logo" src="./images/logo.svg" alt="logo">
+         <img class="footer__logo_min" src="./images/Logomin.svg" alt="logo">
          <div class="footer__conteiner">
             <div class="footer__conteiner_column">
                <a class="footer__conteiner_link" href="#">как это работает</a>
@@ -214,6 +246,10 @@
             </div>
          </div>
       </div>        
-   </footer>   
+   </footer>  
+   <script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.17/dist/js/splide.min.js'></script>
+   <script src='https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js'></script>
+   <script  src="./script/script.js"></script> 
+   <script  src="./script/model.js"></script> 
 </body>
 </html>
