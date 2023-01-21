@@ -117,4 +117,40 @@
         margin-top: 7px;
         margin-bottom: 68px;
     }
+    .finder__img {
+        max-height: 410px;
+    }
+}
+@media (max-width:800px){
+     
+    .finder__conteiner {
+        padding-top: 30vw;
+    }
+    .finder__title{
+        font-size: 7vw;
+        line-height: 150%;
+    }
+    .finder__subtitle{
+        font-size: 7vw;
+        line-height: 150%;
+        height: auto;
+        
+    }
+    .finder__text{
+        font-size: 5vw;
+        line-height: 150.52%;
+        margin-top: 1vw;
+        margin-bottom: 14vw;
+    }
+    .finder__img {
+        max-height: 82vw;
+    }
+}
+@media (max-width:550px){
+.finder {
+    margin-top: 12vw;
+}
+.finder__subtitle {
+    font-size: 6vw;
+}
 }

@@ -50,4 +50,29 @@
         line-height: 150.52%;
     } 
  }
+ @media (max-width:650px) {
+    .comment {
+        padding: 46vw 4vw 15vw;
+
+    }
+    .comment__box {
+        flex-wrap: wrap;
+        gap: 4vw;
+    }
+  .comment__card {
+      width: 38vw;
+      height: 38vw;
+  }
+  .comment__card img {
+      max-width: 35vw;
+      height: 20vw;
+  }
+ 
+    .comment__title{
+        font-weight: 700;
+        font-size: 8vw;
+        line-height: 150.52%;
+        margin-bottom: 8vw;
+    } 
+}
  

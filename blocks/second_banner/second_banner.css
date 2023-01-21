@@ -70,28 +70,29 @@
 
  @media (max-width:800px) { 
     .second_banner {
-        height: 620px;
+        height: 124vw;
     }
     .second_banner__box {
-        padding-top: 70px;
+        padding-top: 14vw;
          
     }
     .second_banner__title {
         max-width: 70%;
         font-weight: 700;
-        font-size: 38px;
+        font-size: 8vw;
         line-height: 150.52%;
-        margin-bottom: 51px;
+        margin-bottom: 10vw;
     }
     .second_banner__text{
         font-weight: 400;
-        font-size: 28px;
+        font-size: 5vw;
         line-height: 150.52%;
-        margin-bottom: 70px;
+        margin-bottom: 14vw;
     }
     .second_banner__btn{
-        font-size: 18px;
-        line-height: 22px;
-        height: 55px;
+        font-size: 4vw;
+        line-height: 4vw;
+        height: 11vw;
+        width: 60vw;
     }
 }

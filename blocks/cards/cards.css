@@ -73,3 +73,26 @@ background-color: #292929;
           padding-bottom: 85px;
       }
  }
+ @media (max-width:800px){
+     .cards__box {
+         padding: 20vw 0 17vw;
+     }
+     .card {
+         width: 40vw;
+         height: 50vw;
+         padding: 4vw;
+         justify-content: center;
+     }
+     .card__photo {
+         width: 15vw;
+         height: 15vw;
+     }
+     .card__name {
+         font-size: 4vw;
+         margin: 2vw auto 2vw;
+     }
+     .card__btn {
+         font-size: 3vw;
+         width: 32vw;
+     }
+ }

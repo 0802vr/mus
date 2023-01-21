@@ -182,30 +182,38 @@
     }
     @media (max-width:800px) {
         .header {
-            max-height: 640px;
+            max-height: 128vw;
+        }
+        .header__logo {
+            width: 36vw;
+            height: 14.4vw;
         }
         .header__title {
             font-weight: 700;
-            font-size: 48px;
+            font-size: 9vw;
             line-height: 150.52%;
         }
         .header__subtitle {
             font-weight: 700;
-            font-size: 35px;
+            font-size: 7vw;
             line-height: 150.52%;
         }
         .header__text{
             font-weight: 400;
-            font-size: 25px;
+            font-size: 5vw;
             line-height: 150.52%;
         }
         .header__conteiner {
-            height: 90px;
-        }
+            height: 14vw;
+            width: 84vw;
+            margin-left: -30vw;
+}
         .header__button_send {
-            font-size: 18px;
-            line-height: 20px;
-            height: 55px;
+            width: 52vw;
+            font-size: 3vw;
+            line-height: 4vw;
+            height: 11vw;
+            margin-left: 30vw;
         }
 
     }

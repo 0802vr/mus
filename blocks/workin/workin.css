@@ -70,14 +70,19 @@
  @media (max-width:800px) {
     .workin__conteiner_title{
         font-weight: 700;
-        font-size: 38px;
+        font-size: 8vw;
         line-height: 150.52%;
     }
     .workin__conteiner_text{
         font-weight: 400;
-        font-size: 28px;
+        font-size: 5vw;
         line-height: 150.52%;
         height: auto;
-        margin-bottom: 40px;
+        margin-bottom: 8vw;
+    }
+    .workin__conteiner_btn {
+        width: 60vw;
+        height: 14vw;
+        font-size: 3vw;
     }
  }

@@ -64,14 +64,30 @@
     }
 }
 @media (max-width:800px) { 
+    .fidback {
+        padding: 12vw 0 14vw;
+    }
     .fidback__title {
         font-weight: 700;
-        font-size: 38px;
-        line-height: 45px;
+        font-size: 7vw;
+        line-height: 9vw;
     }
     .fidback__text{
         font-weight: 400;
-        font-size: 28px;
+        font-size: 5vw;
+        line-height: 150.52%;
+    }
+    
+}
+@media (max-width:500px) { 
+    .fidback__title {
+        font-weight: 700;
+        font-size: 7vw;
+        line-height: 9vw;
+    }
+    .fidback__text{
+        font-weight: 400;
+        font-size: 4vw;
         line-height: 150.52%;
     }
     
