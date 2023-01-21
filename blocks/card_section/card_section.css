@@ -102,4 +102,19 @@
         height: 10vw;
     }
 }
+@media (max-width:550px) { 
+    .card_section_card_photo {
+        width: 16vw;
+        height: 16vw;
+    }
+    .card_section_card_text {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .card_section_card {
+        padding-bottom: 0;
+        gap: 4vw;
+         
+    }
+}
  

@@ -86,3 +86,15 @@
         font-size: 3vw;
     }
  }
+ @media (max-width:550px) {
+     
+    .workin__conteiner_text{
+        margin-top: 5vw;
+        width: 83vw;
+        line-height: 8vw;
+    }
+    .workin__conteiner_btn {
+        height: 12vw;
+        width: 58vw;
+    }
+    }

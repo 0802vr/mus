@@ -73,9 +73,17 @@
  @media (max-width:800px) {
      .main_title__title{
         font-weight: 600;
-        font-size: 5.3vw;
-        line-height: 150.52%;
+        font-size: 5.4vw;
+        line-height: 8vw;
+        width: 64vw;
+         
      }
+     .main_title_line_top {
+         width: 83%;
+     }
+     .main_title_line_bottom {
+        width: 50%;
+    }
 
      
  }

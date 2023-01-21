@@ -153,6 +153,7 @@
     .banner_subtitle{
         font-size: 11vw;
         margin-bottom: 10vw;
+        align-self: flex-start;
     }
     .banner_line1{
         bottom: -25vw;
@@ -163,8 +164,12 @@
     .banner {
         width: 75vw;
     }
+    .banner_subtitle{
+         
+        margin-bottom: 6vw;
+    }
     .banner_btn{
-        width: 60vw;
+        width: 57vw;
         height: 12vw;
         font-size: 3vw;
     }
@@ -173,19 +178,20 @@
         margin-right: auto;
     }
     .banner_line3 {
-        height: 15vw;
+        height: 13vw;
         bottom: 5vw;
         right: 60vw
     }
     .banner_line1 {
-        left: 30vw;
-        bottom: -27vw;
-        height: 15vw;
+        left: 39vw;
+        bottom: -23vw;
+        height: 12vw;
     }
 }
 @media (max-width:550px){
     .banner {
-        height: 36vw;
+        height: 40vw;
+        width: 79vw;
     }
 
 }

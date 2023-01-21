@@ -6,6 +6,7 @@
 }
 .finder__conteiner {
    padding-top: 320px;
+   
    display: flex;
    margin: 0 70px 0;
    max-width: 1300px;
@@ -78,6 +79,7 @@
      .finder__conteiner{
          flex-direction: column;
          margin: 0 4vw 0;
+         padding-bottom: 10vw;
      }
      .finder__subtitle{
          width: fit-content;
@@ -149,9 +151,22 @@
 }
 @media (max-width:550px){
 .finder {
-    margin-top: 12vw;
+    padding-top: 12vw;
 }
 .finder__subtitle {
-    font-size: 6vw;
+    font-size: 7.3vw;
+}
+.finder__conteiner {
+    padding-top: 34vw;
+}
+.finder__text{
+    font-size: 5vw;
+    line-height: 150.52%;
+    margin-top: 7vw;
+    margin-bottom: 14vw;
+    width: 74vw;
+}
+.finder__img {
+    margin-left: 10vw;
 }
 }

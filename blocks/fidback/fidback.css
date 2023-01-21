@@ -87,8 +87,12 @@
     }
     .fidback__text{
         font-weight: 400;
-        font-size: 4vw;
+        font-size: 6vw;
+        margin-top: 10vw;
         line-height: 150.52%;
+    }
+    .fidback {
+        padding: 22vw 0 26vw;
     }
     
 }

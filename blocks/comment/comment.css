@@ -52,7 +52,7 @@
  }
  @media (max-width:650px) {
     .comment {
-        padding: 46vw 4vw 15vw;
+        padding: 46vw 4vw 17vw;
 
     }
     .comment__box {
@@ -65,7 +65,8 @@
   }
   .comment__card img {
       max-width: 35vw;
-      height: 20vw;
+      height: 18vw;
+      object-fit: contain;
   }
  
     .comment__title{

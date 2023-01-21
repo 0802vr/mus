@@ -96,3 +96,18 @@
         width: 60vw;
     }
 }
+@media (max-width:500px) { 
+    .second_banner {
+        height: 121vw;
+    }
+    .second_banner__title {
+        margin-bottom: 13vw;
+    }
+    .second_banner__text {
+        font-weight: 400;
+        font-size: 6vw;
+        line-height: 8vw;
+        width: 84vw;
+        margin-bottom: 14vw;
+    }
+}
