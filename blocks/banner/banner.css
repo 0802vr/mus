@@ -149,6 +149,7 @@
 }
     .banner_title{
         font-size: 5vw;
+        text-align: start;
     }
     .banner_subtitle{
         font-size: 11vw;
@@ -173,10 +174,7 @@
         height: 12vw;
         font-size: 3vw;
     }
-    .banner {
-        margin-left: auto;
-        margin-right: auto;
-    }
+     
     .banner_line3 {
         height: 13vw;
         bottom: 5vw;
@@ -191,7 +189,7 @@
 @media (max-width:550px){
     .banner {
         height: 40vw;
-        width: 79vw;
+        width: 82vw;
     }
 
 }
