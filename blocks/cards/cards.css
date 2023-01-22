@@ -45,7 +45,7 @@ background-color: #292929;
 }
 .card__btn {
      
-    width: 130px;
+    width: fit-content;
     height: 30px;
     background: #FF6C6C;
     border-radius: 5px;
@@ -58,7 +58,9 @@ background-color: #292929;
     color: #FFFFFF;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 15px;
+    padding-right: 15px;
       
 }
 @media (min-width:1440px) {
@@ -100,6 +102,6 @@ background-color: #292929;
      }
      .card__btn {
          font-size: 3vw;
-         width: 32vw;
+         /* width: 32vw; */
      }
  }
