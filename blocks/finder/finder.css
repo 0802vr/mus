@@ -72,7 +72,7 @@
     }
      
  }
- @media (max-width:1300px) { 
+ @media (max-width:1330px) { 
      .finder{
          height: auto;
      }
@@ -95,7 +95,7 @@
         margin-bottom: 10vw;
     }
  }
- @media (max-width:1300px){
+ @media (max-width:1330px){
      .finder__box:nth-child(1) {
          width: auto;
      }
@@ -160,9 +160,11 @@
         margin-bottom: 10vw;
         width: 75vw;
     }
+    
     .finder__img {
         max-height: 80vw;
-    }
+        
+   }
     .finder__box:nth-child(2){
         width: auto;
         margin-left: 10vw;
@@ -187,7 +189,12 @@
     margin-bottom: 10vw;
     width: 74vw;
 }
+.finder__box:nth-child(2){
+    width: auto;
+    margin-left: 10vw;
+}
 .finder__img {
-     max-width: 80vw;
+      
+     
 }
 }
