@@ -85,6 +85,12 @@
          width: fit-content;
          padding-right: 80px;
      }
+     .finder__text{
+        font-size: 28px;
+        line-height: 150.52%;
+        margin-top: 7px;
+        margin-bottom: 10vw;
+    }
  }
  @media (max-width:1300px){
      .finder__box:nth-child(1) {
@@ -117,7 +123,7 @@
         font-size: 28px;
         line-height: 150.52%;
         margin-top: 7px;
-        margin-bottom: 68px;
+        margin-bottom: 10vw;
     }
     .finder__img {
         max-height: 410px;
@@ -126,7 +132,7 @@
 @media (max-width:800px){
      
     .finder__conteiner {
-        padding-top: 30vw;
+        padding-top: 50vw;
     }
     .finder__title{
         font-size: 7vw;
@@ -142,7 +148,7 @@
         font-size: 5vw;
         line-height: 150.52%;
         margin-top: 3vw;
-        margin-bottom: 14vw;
+        margin-bottom: 10vw;
         width: 75vw;
     }
     .finder__img {
@@ -163,7 +169,7 @@
     font-size: 5vw;
     line-height: 150.52%;
     margin-top: 7vw;
-    margin-bottom: 14vw;
+    margin-bottom: 10vw;
     width: 74vw;
 }
 .finder__img {

@@ -44,21 +44,22 @@ background-color: #292929;
     margin-bottom: 25px;
 }
 .card__btn {
-    padding: 15px 45px; 
+     
     width: 130px;
     height: 30px;
     background: #FF6C6C;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px; 
     letter-spacing: -0.04em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 15px;
+      
 }
 @media (min-width:1440px) {
     .cards__box {   
@@ -70,9 +71,15 @@ background-color: #292929;
  @media (max-width:1360px){
       .cards__box {
           padding-top: 105px;
-          padding-bottom: 85px;
+           
       }
  }
+ @media (max-width:1300px){
+    .cards__box {
+        padding-bottom: 105px;
+         
+    }
+}
  @media (max-width:800px){
      .cards__box {
          padding: 20vw 0 17vw;

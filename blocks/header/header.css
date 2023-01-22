@@ -216,7 +216,12 @@
             line-height: 4vw;
             height: 11vw;
             margin-left: 30vw;
-        }
+            border-radius: 2vw;
+            -webkit-border-radius: 2vw;
+            -moz-border-radius: 2vw;
+            -ms-border-radius: 2vw;
+            -o-border-radius: 2vw;
+}
 
     }
   
