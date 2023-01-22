@@ -74,6 +74,7 @@
     .card_section_card {
         padding: 4vw;
         width: 33vw;
+        height: 56vw;
         max-height: 56vw;
     }
     .card_section_card_photo {
@@ -92,7 +93,7 @@
     .card_section_card:nth-child(2n){
         margin-top: 12vw;
         margin-bottom: -4vw;
-        padding-bottom: 14vw;
+        padding-bottom: 0;
     }
     .card_section_card:nth-child(1){
         margin-bottom: 8vw;
