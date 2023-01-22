@@ -133,7 +133,7 @@
     .header__conteiner {
         margin-left: calc(70px - 100vw);
         padding-left: calc(100vw - 70px);
-        width: 350px;
+        width: 330px;
     }
     .header__button_send {
         margin-left: 0;

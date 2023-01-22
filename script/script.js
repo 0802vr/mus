@@ -3,7 +3,7 @@ const splide = new Splide('#partnets_cards', {
       drag   : 'free',
       focus  : 'start',       
       autoWidth: true,
-      gap:"20px",
+      /* gap:"20px", */
       start:0,      
       pagination: false, 
       arrows:false,

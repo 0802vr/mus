@@ -173,9 +173,7 @@
 }
  
 @media (max-width:650px){
-    .banner {
-        width: 75vw;
-    }
+     
     .banner_subtitle{
          
         margin-bottom: 6vw;
@@ -200,9 +198,9 @@
 @media (max-width:550px){
     .banner {
         height: 40vw;
-        width: 82vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
+        padding: 8vw 6vw 12vw;
+         
+        
     }
 
 }
