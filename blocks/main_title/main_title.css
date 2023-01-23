@@ -38,24 +38,31 @@
     line-height: 45px;    
     margin: 0;
     margin-right: auto;
-     
-     
-    /* padding-left: 5px;
-    padding-right: 5px;
-    margin-left: -5px; */
+    
 }
-/* .main_title__title_span_second{
-    color: #292929;
-    background-color: #fff;
-    margin-left: -15px;
-    padding-left: 15px;
-    padding-right: 15px;
-} */
+
 .main_title__line {
     position: absolute;     
     bottom: -120px;
     right: -180px;
 }
+ 
+.main_title_curator {
+    background-color: #F6F7FF;
+} 
+.main_title_line_top_curator {
+    border-bottom: 3px solid #292929;
+    
+}
+.main_title_line_bottom_curator {
+    border-bottom: 3px solid #292929;
+}
+.main_title__title_curator {
+    color: #292929;
+}
+ 
+ 
+
  
 @media (min-width:1440px) {
     .main_title__box {   

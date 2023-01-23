@@ -11,6 +11,10 @@
 @import url(../blocks/card_section/card_section.css);
 @import url(../blocks/workin/workin.css);
 @import url(../blocks/comment/comment.css);
+
+@import url(../blocks/functional/functional.css);
+@import url(../blocks/takein/takein.css);
+
 @import url(../blocks/footer/footer.css);
 
 

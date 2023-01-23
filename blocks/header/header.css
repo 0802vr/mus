@@ -11,6 +11,7 @@
     max-width: 1300px;
     display: flex;      
     flex-direction: column;
+    position: relative;
 }
 
 .header__nav {
@@ -56,7 +57,7 @@
 }
 .nav__btn:nth-child(1) {
     margin-right: -40px;
-    z-index: 2;
+    
     width: 234px;
     padding-left: 0;
 }
@@ -125,6 +126,47 @@
     margin-left: 162px;
     cursor: pointer;
 }
+.nav__btns_link {
+    z-index: 2;
+}
+.header_curator {
+    background-color: #F6F7FF;
+    background-image: none;
+    position: relative;
+     
+
+}
+
+.header_img_curator {
+    position: absolute;
+    right: -70px;
+    top: 140px;
+    z-index: 2;
+}
+.nav__btn_curator {
+    border: 2px solid #EF5C5C;
+}
+.nav__button_entry_curator{
+    color: #FF6C6C;
+
+}
+.header__subtitle_curator {
+    color: #292929;
+}
+ 
+.header__title_curator {
+    color: #292929;
+}
+ 
+.header__text_curator {
+    color: #292929;
+}
+ 
+.header__conteiner_curator {
+}
+ 
+.header__button_send_curator {
+}
 @media (min-width:1440px) {
     .header__table {   
         margin-left: auto;
@@ -138,13 +180,27 @@
     .header__button_send {
         margin-left: 0;
     }
+    .header_img_curator {
+        right: -60px;
+    }
      
      
  }
+ @media (max-width:1400px) {
+    .header_img_curator{
+        width: 50vw;
+        height: 70vw;
+        object-fit: contain;
+    }
+}
  @media (max-width:1300px) {
      .header__table {
         margin: 0 4vw 0;
         padding-top: 20px;
+     }
+     .header_img_curator {
+         right: -4vw;
+         width: 45vw;
      }
  }
  @media (max-width:1250px) {
@@ -223,5 +279,27 @@
             -o-border-radius: 2vw;
 }
 
+.header__text_curator {
+    width: 47vw;
+}
+.header_img_curator {
+    top: 30vw;
+}
     }
+    @media (max-width:500px) {
+        .header_curator {
+            max-height: 200vw;
+        }
+        .header__conteiner_curator {
+            margin-top: 46vw;
+            margin-bottom: 16vw;
+        }
+        .header_img_curator {
+            top: auto;
+            bottom: 15vw;
+            width: 70vw;
+            height: 100vw;
+        }
+    }
+
   
