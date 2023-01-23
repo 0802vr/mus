@@ -46,6 +46,12 @@
     max-width: 660px;
     height: 150px;
 }
+@media (max-width:900px) {
+.functional__box_card_text {
+        
+    height: auto;
+}
+}
 @media (max-width:800px) {
     .functional__box {
         margin: 0 4vw 0;
@@ -53,6 +59,18 @@
     .functional__box_card { 
         padding: 30px 20px 40px 11px;
     }
+     
+    .functional__box_card img {
+        width: 45px;
+        height: 45px;
+    }
+    .functional__box {
+        padding: 35vw 0 20vw;
+        gap: 40px;
+    }
+     
+}
+@media (max-width:500px) {
     .functional__box_card_title {
         margin: 0;
         font-size: 5vw;
@@ -68,12 +86,4 @@
         letter-spacing: -0.04em;
         height: auto;
     } 
-    .functional__box_card img {
-        width: 45px;
-        height: 45px;
-    }
-    .functional__box {
-        padding: 35vw 0 20vw;
-        gap: 40px;
-    }
 }
