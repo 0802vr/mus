@@ -68,6 +68,21 @@
         padding: 35vw 0 20vw;
         gap: 40px;
     }
+    .functional__box_card_title {
+        margin: 0;
+        font-size: 4vw;
+        line-height: 6vw;
+        margin-bottom: 22px;
+ 
+    }
+    .functional__box_card_text {
+        margin: 0;
+        font-weight: 400;
+        font-size: 2.7vw;
+        line-height: 3vw;
+        letter-spacing: -0.04em;
+        height: auto;
+    } 
      
 }
 @media (max-width:500px) {
