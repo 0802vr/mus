@@ -11,7 +11,7 @@
     padding-top: 99px;
     padding-bottom: 117px;
     display: flex;
-    flex-wrap: wrap;
+     
     gap: 20px;
 }
 .card_section_card {
@@ -51,14 +51,30 @@
 }
 .card_section__column {
     display: flex;
-    flex-wrap: wrap;
+     
     gap: 20px;
     margin-left: auto;
     margin-right: auto;
 }
  
- @media (max-width:1350px) { 
+/*  @media (max-width:1350px) and (min-width:1300px) { 
     .card_section__table{
+        flex-wrap: wrap;
+    }
+    .card_section_card:nth-child(2n){
+        margin-top: 60px;
+        margin-bottom: -20px;
+        padding-bottom: 70px;
+    }
+    .card_section_card:nth-child(1){
+        margin-bottom: 40px;
+    }
+} */
+@media (max-width:800px)  { 
+    .card_section__table{
+        flex-wrap: wrap;
+    }
+    .card_section__column {
         flex-wrap: wrap;
     }
     .card_section_card:nth-child(2n){

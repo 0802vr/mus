@@ -188,13 +188,13 @@
     }
     .header_img_curator {
         right: 0;
-        left: 48.9vw;
+        left: 47.9vw;
     }
 }
     @media (min-width:1600px) {
         .header_img_curator {
             right: 0;
-            left: 49vw;
+            left: 48vw;
         }
      
      
