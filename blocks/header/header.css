@@ -144,8 +144,7 @@
 .header_img_curator {
     position: absolute;
     background-position: center;
-    right: -70px;
-     
+    right: 0;     
     top: 140px;
     z-index: 2;
 }
@@ -189,13 +188,13 @@
     }
     .header_img_curator {
         right: 0;
-        left: 47.9vw;
+         
     }
 }
     @media (min-width:1600px) {
         .header_img_curator {
             right: 0;
-            left: 48vw;
+            
         }
      
      
@@ -216,13 +215,13 @@
          font-size: 85px;
      }
      .header_img_curator {
-         right: -80px; 
+         
          width: 46vw;
      }
  }
  @media (max-width:800px) {
     .header_img_curator {
-        right: -4vw; 
+         
         width: 46vw;
     }
      .header__box{

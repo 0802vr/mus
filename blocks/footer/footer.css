@@ -50,11 +50,15 @@
     }
  }
  @media (max-width:800px) {
-    .footer__logo {
+    /* .footer__logo {
         display: none;
     }
     .footer__logo_min{
         display: block;
+        width: 23vw;
+        height: 11vw;
+    } */
+    .footer__logo  {
         width: 23vw;
         height: 11vw;
     }
