@@ -72,18 +72,13 @@ background-color: #292929;
     } 
      
  }
- @media (max-width:1360px){
+ @media (max-width:800px){
       .cards__box {
           padding-top: 105px;
            
       }
  }
- @media (max-width:1300px){
-    .cards__box {
-        padding-bottom: 105px;
-         
-    }
-}
+ 
  @media (max-width:800px){
      
      .cards__box {

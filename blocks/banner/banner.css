@@ -66,7 +66,7 @@
 .banner_line3{
     display: none;
 }
-@media (max-width:1350px){
+@media (max-width:800px){
     .banner_box{
         flex-direction: column;
     }
@@ -76,7 +76,7 @@
          
     }
 }
-@media (max-width:1350px){
+@media (max-width:800px){
     .banner {
         padding: 40px 20px 60px;
         margin-left: 4vw;
@@ -106,12 +106,12 @@
         rotate: 54deg;
     }
 }
-@media (max-width:1300px){
+@media (max-width:800px){
     .banner{
         margin-top: 0;
     }
 }
-@media (max-width:1000px){
+@media (max-width:800px){
     .banner_title{
         font-size: 40px;
     }
@@ -125,7 +125,7 @@
     }
      
 }
-@media (max-width:900px){
+@media (max-width:800px){
     .banner_line1{
          
     }

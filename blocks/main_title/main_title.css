@@ -71,16 +71,14 @@
     } 
      
  }
- @media (max-width:1300px) {
+ @media (max-width:1440px) {
      .main_title__box {
          margin-left: 4vw;
          margin-right: 4vw;
      }
-     .main_title__line {
-         display: none;
-     }
+      
  }
- @media (max-width:1050px) {
+ @media (max-width:800px) {
     .main_title__line{
         left: 60%;
         bottom: -160px;
