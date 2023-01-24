@@ -5,18 +5,31 @@
     margin: 0 auto;
     color: #fff;     
     position:relative;
+    
      
     }
 @media (max-width:1300px) {
         header, section, footer {
             width: 1440px;
+            padding-left: 0;
+            padding-right: 0;
         } 
+        .root {
+            width:fit-content;
+            overflow-x: scroll;
+            
+        }
+         
      }     
   
  @media (max-width:800px) {
     header, section, footer {
         width: auto;
     } 
+    .root {
+        overflow-x: auto;
+        width: auto;
+    }
  }      
      
      

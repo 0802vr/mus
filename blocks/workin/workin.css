@@ -67,12 +67,15 @@
  }
  @media (max-width:1300px) {
     .workin {
-        padding-left: 4vw;
-        padding-right: 4vw;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
  @media (max-width:800px) {
-    
+    .workin {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
     .workin__box {
          flex-wrap: wrap;
    

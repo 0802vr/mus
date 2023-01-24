@@ -49,6 +49,10 @@
         font-size: 38px;
         line-height: 150.52%;
     } 
+    .comment {
+        padding-left: 0;
+        padding-right: 0;
+    }
  }
  @media (max-width:650px) {
     .comment {

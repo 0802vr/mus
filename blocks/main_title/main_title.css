@@ -76,6 +76,9 @@
          margin-left: 4vw;
          margin-right: 4vw;
      }
+     .main_title__line {
+         display: none;
+     }
  }
  @media (max-width:1050px) {
     .main_title__line{
@@ -94,6 +97,9 @@
         line-height: 8vw;
         width: 80vw;
          
+     }
+     .main_title__line {
+         display: block;
      }
      .main_title_line_top {
          width: 83%;

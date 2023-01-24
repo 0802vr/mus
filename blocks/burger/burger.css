@@ -73,6 +73,15 @@
     height: 11vw;
     font-size: 3vw;
     margin-right: 0;
+    
+}
+.header__box_burger .nav__btn:nth-child(3){
+    border: 1px solid #FF6C6C;
+}
+.header__box_burger .nav__btns_link .nav__btn {
+    color: #FFFFFF;
+    background: linear-gradient(160.35deg, #FF6C6C 13.85%, #EF5C5C 87.62%);
+    backdrop-filter: blur(2.25838px);
 }
 .header__box_burger_menu {
     display: flex;
@@ -85,7 +94,7 @@
 .header__box_burger_menu_logo {
 }
  
-@media (max-width:1250px) { 
+@media (max-width:800px) { 
     .header__list_burger {
         display: block;
     }

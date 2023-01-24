@@ -28,7 +28,7 @@
     background-color: #FF6C6C;
     margin: 0;
     margin-left: -70px;
-    margin-right: 70px;
+    margin-right: 110px;
     padding-left: 70px;
     text-transform: uppercase;
     display: flex;
@@ -55,6 +55,7 @@
     line-height: 150.52%;
     color: #292929;
     max-width: 640px;
+    margin-top: 54px;
 }
 .finder__line {
     position: absolute;
@@ -72,7 +73,7 @@
     }
      
  }
- @media (max-width:1330px) { 
+ @media (max-width:800px) { 
      .finder{
          height: auto;
      }
@@ -95,7 +96,7 @@
         margin-bottom: 10vw;
     }
  }
- @media (max-width:1330px){
+ @media (max-width:800px){
      .finder__box:nth-child(1) {
          width: auto;
      }
@@ -106,7 +107,7 @@
           
      }
  }
- @media (max-width:1050px){
+ @media (max-width:800px){
      
      .finder__title{
         font-size: 50px;
@@ -116,7 +117,7 @@
         padding-right: 15px;
      }
  }
- @media (max-width:1050px){
+ @media (max-width:800px){
      
     .finder__title{
         font-size: 38px;
@@ -154,7 +155,7 @@
         
     }
     .finder__text{
-        font-size: 5vw;
+        font-size: 4.5vw;
         line-height: 150.52%;
         margin-top: 3vw;
         margin-bottom: 10vw;
