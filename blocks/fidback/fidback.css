@@ -2,6 +2,7 @@
     background-color: #fff;
     padding-top: 74px;
     padding-bottom: 124px;
+    position: relative;
     
 }
 .fidback__cont {
@@ -15,6 +16,7 @@
 }
 .fidback__img {
     position: relative;
+    margin-left: -70px;
 }
 .fidback__box {
 }
@@ -37,18 +39,27 @@
     margin-top: 9px;
     max-width: 860px;
 }
-@media (max-width:1300px) {
-    .fidback__img{
-        position: absolute;
-         
-        left: 25vw;
+.fidback__img_min {
+    display: none;
+}
+@media (max-width:800px) {
+    .fidback__img_min {
+        display: block;
+        position: absolute;  
+        right: 0;
+        bottom: 8vw;
+        height: 74vw;
          
 
+    }
+    .fidback__img {
+        display: none;
     }
     .fidback__cont{
         padding-left: 4vw;
         padding-right: 4vw;
         overflow: hidden;
+        height: 62vw;
     }
     .fidback__title {
         max-width: 480px;
@@ -58,7 +69,7 @@
         z-index: 2;
     }
 }
-@media (max-width:1000px) {
+@media (max-width:800px) {
     .fidback__title {
         font-size: 55px;
     }
