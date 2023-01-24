@@ -12,6 +12,9 @@
     max-width: 610px;
 }
 .workin__conteiner:nth-child(2) {
+    width: 5px;
+    background-color: rgba(255, 108, 108, 1);
+    height: 650px;
     margin-left: 35px;
     margin-right: 60px;
 }
@@ -59,10 +62,10 @@
     }
      
    
-    /*  */
+    
     .workin__conteiner:nth-child(3){
         margin-left: auto;
-        /* margin-top: 139px; */
+       
     }
      
  }
